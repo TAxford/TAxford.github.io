@@ -1,13 +1,35 @@
 ﻿body {
-    background-color:darkslategray;
-}
+    background-color:black;
+  }
 
 /*Header*/
 h1{
     color:snow;
     padding-left:350px;
-    padding-top:25px;
-    background-color:black;
+    padding-top:25px;   
     height:100px;
 }
 
+div#CP.col-6{
+    height:200px;
+    color:snow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top:60px;
+    padding-left:400px;
+}
+
+div#CE.col-6 {
+    height: 200px;
+    color: snow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 60px;
+    padding-left: 375px;
+}
+
+div#CL.col-6 {
+    height: 200px;
+    color: snow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 60px;
+    padding-left: 350px;
+}
