@@ -1,0 +1,122 @@
+﻿body{
+    padding:5px;
+    background-color:black;
+}
+/*Logo Image*/
+.col-1.maincol {
+    background-image: url('Img/rsz_logo-mini.jpg');
+    background-size: cover;
+}
+
+/*Main Page Header*/
+.col-8.maincol {
+    display: flex;
+    height: 100px;
+    background-color: black;
+    color: snow;
+    justify-content: center;
+    padding-top: 25px;
+    padding-left: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+
+
+/*Navagation Bar*/
+.col-3.maincol {
+    height: 100px;
+    background-color: black;
+    padding: 0;
+    
+}
+
+.navbar.navbar-expand-md.bg-dark.navbar-dark {
+    background-color: black !important;
+    padding-top: 20px;
+}
+
+a.nav-link {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: snow !important;
+}
+
+    a.nav-link:hover {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: red !important;
+        background-color: black;
+    }
+
+/*Self pic*/
+.col-4.SelfPic {
+    background-image: url('Img/Tim Axford Headshot mod.jpg');
+    background-size: cover;
+    height: 400px;
+}
+
+/*Second Col welcome*/
+.col-8.SecondCol {
+    background-color: darkslategray;
+    height: 400px;
+}
+
+    .col-8.SecondCol p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: snow;
+        font-size: 35px;
+        padding-top:50px;
+    }
+
+/*Skills Header*/
+.col.SkillHeader{
+    background-color:black!important;
+
+}
+
+h1.SkillHeader{
+    display: flex;
+    height: 100px;
+    background-color: black;
+    color: snow;
+    justify-content: center;
+    padding-top: 25px;
+    padding-left: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+/*Skills Column*/
+.col.Skillcol{
+    background-color:darkslategray!important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p.MainSkills {
+    color: snow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Footer Column*/
+.col-3.Footer{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:black;
+    color:black;    
+    height:50px;
+}
+
+.col-2.Footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: black;
+    height: 50px;
+}
+
+.col-6.Footer {
+    background-color: black;
+    color: snow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left:450px;
+}

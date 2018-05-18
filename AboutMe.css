@@ -1,0 +1,23 @@
+﻿body{
+    padding:5px;
+    background-color:darkslategray;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    background-color: snow;
+}
+
+
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    background-color:snow;
+}
+
+p.black{
+    color:snow;
+    background-color:black;
+}
