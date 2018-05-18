@@ -1,0 +1,13 @@
+﻿body {
+    background-color:darkslategray;
+}
+
+/*Header*/
+h1{
+    color:snow;
+    padding-left:350px;
+    padding-top:25px;
+    background-color:black;
+    height:100px;
+}
+
