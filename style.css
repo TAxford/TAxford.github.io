@@ -81,8 +81,27 @@ section.grid-item.grid-item-6 {
     opacity: .8;
 }
 
-
 section.grid-item.grid-item-7 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-column: 1 / span 9;
+    height: 25px;
+    background-color: black;
+}
+
+section.grid-item.grid-item-8 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-column: 5 / span 5;
+    height: 400px;
+    background-color: black;
+    opacity: .8;
+}
+
+
+section.grid-item.grid-item-9 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
