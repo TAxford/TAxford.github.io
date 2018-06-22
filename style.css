@@ -1,5 +1,6 @@
 ﻿body {
-    background-color:darkslategray;
+    background-image: url('Img/binary code.jpg');
+    background-size:cover;
 }
 
 .container {
@@ -12,12 +13,6 @@
     margin: auto;
 }
 
-section.grid-item.grid-item-1 /*//section 1*/ {
-    grid-column: 1 / span 1;
-    height: 100px;
-    background-color: darkslategray;
-    opacity: .8;
-}
 
 .button /*Logo button*/ {
     height: 100px;
@@ -27,175 +22,16 @@ section.grid-item.grid-item-1 /*//section 1*/ {
     text-decoration: none;
     cursor: pointer;
     border-radius: 12px;
-    background-image: url('Img/logo-mini.jpg');
+    background-image: url('Img/rsz_logo-mini.jpg');
     background-size: cover;
     background-position: center;
 }
-
-
-
-section.grid-item.grid-item-2 {
-    grid-column: 2 / span 9;
-    height: 100px;
-    background-color: darkslategray;
-    opacity: .8;
-}
-
-nav {
-    background-color: #fff;
-    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
-    width: auto;
-    z-index: 3;
-}
-
-    nav ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        overflow: hidden;
-        background-color: darkslategray;
-    }
-
-    nav li a {
-        color: snow;
-        display: block;
-        padding: 20px 20px;
-        border-right: 1px solid #f4f4f4;
-        text-decoration: none;
-    }
-
-        nav li a:hover,
-        nav li a:focus,
-        .menu__checkbox:hover,
-        .menu__checkbox:focus,
-        :focus {
-            background-color: black;
-        }
-
-        ul.menu{
-            padding-top:25px;
-        }
-
-/* menu */
-
-.menu {
-    display: none;
-    clear: both;
-    max-height: 0;
-    transition: max-height .2s ease-out;
-}
-
-
-/* menu icon */
-
-.menu__icon {
-    cursor: pointer;
-    display: block;
-    float: right;
-    padding: 28px 20px;
-    position: relative;
-    user-select: none;
-}
-
-.hamburger {
-    background: #333;
-    display: block;
-    height: 3px;
-    position: relative;
-    transition: background .2s ease-out;
-    width: 30px;
-}
-
-    .hamburger:before,
-    .hamburger:after {
-        background: #333;
-        content: '';
-        display: block;
-        height: 100%;
-        position: absolute;
-        transition: all .5s ease-out;
-        width: 100%;
-    }
-
-    .hamburger:before {
-        top: 8px;
-    }
-
-    .hamburger:after {
-        top: -8px;
-    }
-
-
-/* menu checkbox */
-
-.menu__checkbox {
-    opacity: 0;
-}
-
-    .menu__checkbox:checked ~ .menu {
-        max-height: 240px;
-        display: block;
-    }
-
-    .menu__checkbox:focus ~ .menu__icon {
-        outline: #5E9ED6 1px solid;
-        background-color: #f4f4f4;
-    }
-
-    .menu__checkbox:checked ~ .menu__icon {
-        background-color: #f4f4f4;
-    }
-
-        .menu__checkbox:checked ~ .menu__icon .hamburger {
-            background: transparent;
-        }
-
-            .menu__checkbox:checked ~ .menu__icon .hamburger:before {
-                transform: rotate(-225deg);
-            }
-
-            .menu__checkbox:checked ~ .menu__icon .hamburger:after {
-                transform: rotate(225deg);
-            }
-
-        .menu__checkbox:checked ~ .menu__icon:not(.steps) .hamburger:before,
-        .menu__checkbox:checked ~ .menu__icon:not(.steps) .hamburger:after {
-            top: 0;
-        }
-
-
-/* 48em = 768px */
-
-@media (min-width: 48em) {
-    nav li {
-        float: left;
-    }
-
-        nav li a {
-            padding: 20px 30px;
-        }
-
-    .menu {
-        display: block;
-        clear: none;
-        float: right;
-        max-height: none;
-    }
-
-    .menu__icon,
-    .menu__checkbox,
-    .hamburger {
-        display: none;
-    }
-
-
-
-
     section.grid-item.grid-item-3 {
         display: flex;
         flex-wrap: wrap;
         grid-column: 1 / span 4;
-        height: 400px;
+        height:400px;
+        width:auto;
         background-image: url('Img/Tim Axford Headshot mod.jpg');
         background-size: cover;
     }
@@ -234,4 +70,13 @@ nav {
         height: 100px;
         background-color: black;        
     }
-    }
+
+section.grid-item.grid-item-6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-column: 1 / span 9;
+    height: 100px;
+    background-color: black;
+}
+    
