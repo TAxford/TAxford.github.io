@@ -3,91 +3,44 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" />
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
-    <link href="stylesheetBS.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
 </head>
 <body>
     <div class="container">
-        <div class="row HeaderRow">
-            <div class="col-1 maincol">
-            </div>
-            <div class="col-8 maincol">
-                <h1 class="mainHeader">WELCOME TO MY PORTFOLIO</h1>
-                               
-                
-            </div>
-            <div class="col-3 maincol">
-                <div class="navHeader">
-                    <div class="col navcol">
-                        <div class="navbar navbar-expand-md bg-dark navbar-dark">
+        <section class="grid-item grid-item-1">
+            <!--logo button-->
+            <button class="button button4"></button>
+        </section>
+        <section class="grid-item grid-item-2">
+            <!--Navagation bar-->
+            <nav>
 
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="AboutMe.html" target="_blank">About Me</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="Projects.html" target="_blank">Projects</a>
+                <ul class="menu" role="menuitem">
+                    <li><a href="about.asp">ABOUT ME</a></li>
+                    <li><a href="projects.asp">PROJECTS</a></li>
+                    <li><a href="contact.asp">CONTACT ME</a></li>
+                </ul>
+                <span class="hamburger"></span>
 
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="ContactMe.html" target="_blank">Contact Me</a>
 
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row SecondRow">
-            <div class="col-4 SelfPic">
+            </nav>
+        </section>
 
-            </div>
-            <div class="col-8 SecondCol">
-                <p>
-                    My name is Timothy Joe Axford II. I am an associate software developer. I recently completed a Software Development Certificate course at We Can Code It (WCCI) in Cleveland Ohio.
-                    Enjoy my page and I look forward to connecting with you.
-                </p>
-            </div>
-        </div>
-        <div class="row SkillRow">
-            <div class="col SkillHeader">
-                <h1 class="SkillHeader">Obtained Skills</h1>
-            </div>
-        </div>
-        <div class="row SkillRow">
-            <div class="col Skillcol">
-                <p class="MainSkills">
-                    C#  •  .NET  •  Active Server Pages / ASP.net  •  JavaScript  
-                    •  JQuery  •  Flexbox •  MVC •  HTML5  •  CSS3 •  Bootstrap •  TDD 
-                    •  Agile (Scrum) •  Object Oriented Programming (OOP)  • AJAX  •  JSON  
-                    •  Restful APIs •  Responsive Design / Mobile  •  Structured Query Language (SQL) 
-                    •  Transactional Databases / MS SQL  •  Source Control / GitHub
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="row Footer">
-        <div class="col-3 Footer"></div>
-        <div class="col-6 Footer">
-            <p>AXFORD X CO</p>
-        </div>
-        <div class="col-2 Footer">
+        <section class="grid-item grid-item-3"></section> <!--Personal Photo-->
+        <section class="grid-item grid-item-4">
+            <h1>WELCOME TO MY PORTFOLIO</h1>
+            <p>
+                My name is Timothy Joe Axford II. I am an associate software developer currently attending WCCI in Cleveland Ohio.
+                Enjoy my page and I look forward to connecting with you.
+            </p>
+        </section>
+        <section class="grid-item grid-item-5">
             
-        </div>
-        
+            <p>
+               AXFORD X CO.
+            </p>
+        </section>
+
     </div>
-
-    
-
 </body>
 </html>
