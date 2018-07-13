@@ -26,6 +26,16 @@
     background-size: cover;
     background-position: center;
 }
+section.grid-item.grid-item-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:10px;
+    grid-column: 2 / span 9;
+    height: 100px;
+    width: auto;
+}
+
     section.grid-item.grid-item-3 {
         display: flex;
         flex-wrap: wrap;
