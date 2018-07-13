@@ -68,37 +68,49 @@
         justify-content: center;
         grid-column: 1 / span 9;
         height: 100px;
-        background-color: black;        
+        background-color: black; 
+        opacity:.9;
     }
 
 section.grid-item.grid-item-6 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    grid-column: 5 / span 5;
+    grid-column: 1 / span 5;
     height: 400px;
-    background-color: black;
-    opacity: .8;
+    background-image: url('Img/FortuneTeller.jpg');
+    background-size:cover;
 }
 
 section.grid-item.grid-item-7 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    grid-column: 1 / span 9;
-    height: 25px;
+    grid-column: 6 / span 9;
+    height: 400px;
     background-color: black;
+}
+
+h1.FTH {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+p.FTH {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 20px;
 }
 
 section.grid-item.grid-item-8 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    grid-column: 5 / span 5;
+    grid-column: 1 / span 5;
     height: 400px;
     background-color: black;
     opacity: .8;
 }
+
 
 
 section.grid-item.grid-item-9 {
