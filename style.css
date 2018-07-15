@@ -72,15 +72,27 @@ section.grid-item.grid-item-2 {
         font-weight: bold;
     }
 
+
+
     section.grid-item.grid-item-5 {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-content:center;
         grid-column: 1 / span 9;
         height: 100px;
         background-color: black; 
         opacity:.9;
     }
+
+p.PH {
+    color: snow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
 
 section.grid-item.grid-item-6 {
     display: flex;
@@ -103,7 +115,8 @@ section.grid-item.grid-item-7 {
 
 h1.FTH {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
+    font-size: 40px;
+    text-decoration:underline;
 }
 p.FTH {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
